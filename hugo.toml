@@ -4,12 +4,16 @@ locale = "zh-tw"
 title = "我的 Dream 個人部落格"
 theme = "dream"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   author = "部落格作者"
   avatar = "img/author.png"
   headerTitle = "我的個人部落格"
   motto = "🚀 分享技術隨筆、AI 開發與生活想法"
-  description = "歡迎來到我的 Dream 個人部落格！"
+  description = "歡迎來到我的個人部落格！專注於技術筆記、AI 開發與日常生活分享。"
+  keywords = ["Hugo", "Tailwind", "AI", "網頁開發", "部落格"]
 
   lightTheme = "emerald"
   darkTheme = "forest"
@@ -17,6 +21,14 @@ theme = "dream"
   stickyNav = true
   showTableOfContents = true
   showSummaryCoverInPost = true
+
+  # 留言系統 (Giscus 設置)
+  [params.giscus]
+    enabled = true
+    repo = "lkoj74/hugo-0803"
+    repoId = "R_kgDOXXXXXXXX"
+    category = "Announcements"
+    categoryId = "DIC_kwDOXXXXXXXX"
 
 [menu]
   [[menu.main]]

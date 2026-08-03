@@ -1,0 +1,10 @@
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if $img -}}
+  {{- $webp := $img.Resize "1200x webp q85" -}}
+  <figure class="my-4">
+    <img src="{{ $webp.RelPermalink }}" alt="{{ .Text }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" loading="lazy" class="rounded-lg shadow-md max-w-full h-auto" />
+    {{ with .Title }}<figcaption class="text-center text-sm text-base-content/60 mt-2">{{ . }}</figcaption>{{ end }}
+  </figure>
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" class="rounded-lg shadow-md max-w-full h-auto" />
+{{- end -}}
