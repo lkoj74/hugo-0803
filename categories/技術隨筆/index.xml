@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技術隨筆 on 我的 Dream 個人部落格</title><link>https://lkoj74.github.io/hugo-0803/categories/%E6%8A%80%E8%A1%93%E9%9A%A8%E7%AD%86/</link><description>Recent content in 技術隨筆 on 我的 Dream 個人部落格</description><generator>Hugo</generator><language>zh-tw</language><lastBuildDate>Mon, 03 Aug 2026 15:57:00 +0800</lastBuildDate><atom:link href="https://lkoj74.github.io/hugo-0803/categories/%E6%8A%80%E8%A1%93%E9%9A%A8%E7%AD%86/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGO個人部落格建置學習筆記</title><link>https://lkoj74.github.io/hugo-0803/posts/hugo-blog-learning-notes/</link><pubDate>Mon, 03 Aug 2026 15:57:00 +0800</pubDate><guid>https://lkoj74.github.io/hugo-0803/posts/hugo-blog-learning-notes/</guid><description>&lt;p&gt;歡迎來到我的全新個人部落格！這篇文章記錄了我使用 &lt;strong&gt;Hugo Extended&lt;/strong&gt; 靜態網站生成器，搭配炫麗的 &lt;strong&gt;Dream&lt;/strong&gt; 主題，並結合 &lt;strong&gt;GitHub Actions&lt;/strong&gt; 實現全自動化雲端發布的完整學習歷程與技術心得。&lt;/p&gt;
 &lt;p&gt;&lt;figure class="my-4"&gt;
- &lt;img src="https://lkoj74.github.io/hugo-0803/posts/hugo-blog-learning-notes/featured_hu_d618d3c8443b8e3d.webp" alt="Hugo 個人部落格建置學習筆記" width="1200" height="670" loading="lazy" class="rounded-lg shadow-md max-w-full h-auto" /&gt;
+ &lt;img src="https://lkoj74.github.io/hugo-0803/posts/hugo-blog-learning-notes/featured_hu_5aed7984405873f3.webp" alt="Hugo 個人部落格建置學習筆記" width="1200" height="670" loading="lazy" class="rounded-lg shadow-md max-w-full h-auto" /&gt;
  
  &lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -22,4 +22,4 @@
 &lt;li&gt;&lt;strong&gt;動態訪客計數器&lt;/strong&gt;：在導覽列即時顯示造訪人次。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="3-高級效能-pipeline-webp-自動圖片壓縮"&gt;3. 高級效能 Pipeline (WebP 自動圖片壓縮)&lt;/h3&gt;
-&lt;p&gt;透過 Hugo 的 Resource Hook，文章中的 Markdown 圖片在編譯時會&lt;strong&gt;自動轉換為高壓縮率的 WebP 格式&lt;/strong&gt;（85% 品質壓縮），並自動加上 &lt;code&gt;loading=&amp;quot;lazy&amp;quot;&lt;/code&gt; 懶加載，大幅提升手機載入速度。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;透過 Hugo 的 Resource Hook，文章中的 Markdown 圖片在編譯時會&lt;strong&gt;自動轉換為高壓縮率的 WebP 格式&lt;/strong&gt;（85% 品質壓縮），並自動加上 &lt;code&gt;loading=&amp;quot;lazy&amp;quot;&lt;/code&gt; 懶加載，大幅提升手機載入速度。&lt;/p&gt;</description></item><item><title>歡迎來到我的全新 Hugo 部落格！</title><link>https://lkoj74.github.io/hugo-0803/posts/first-post/</link><pubDate>Mon, 03 Aug 2026 11:27:00 +0800</pubDate><guid>https://lkoj74.github.io/hugo-0803/posts/first-post/</guid><description>這是我使用 Hugo 與 Blowfish 主題搭建的第一篇個人部落格文章。</description></item></channel></rss>
