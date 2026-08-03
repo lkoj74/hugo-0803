@@ -47,3 +47,9 @@ theme = "dream"
     name = "👤 關於本站"
     url = "about/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "admin"
+    name = "⚙️ 線上後台"
+    url = "admin/"
+    weight = 40
