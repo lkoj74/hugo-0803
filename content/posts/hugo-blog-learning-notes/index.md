@@ -9,8 +9,6 @@ categories: ["技術隨筆"]
 
 歡迎來到我的全新個人部落格！這篇文章記錄了我使用 **Hugo Extended** 靜態網站生成器，搭配炫麗的 **Dream** 主題，並結合 **GitHub Actions** 實現全自動化雲端發布的完整學習歷程與技術心得。
 
-![Hugo 個人部落格建置學習筆記](featured.jpg)
-
 ---
 
 ## 💡 為什麼選擇 Hugo？

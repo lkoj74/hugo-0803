@@ -8,8 +8,6 @@ categories: ["技術專題"]
 summary: "深入探討 AI 如何重構軟體工程師的工作流程，從 Pair Programming 到自動重構。"
 ---
 
-![AI 輔助開發的未來趨勢](featured.jpg)
-
 # 🚀 AI 輔助開發的革命
 
 人工智慧技術正在以驚人的速度改變軟體開發生態。
