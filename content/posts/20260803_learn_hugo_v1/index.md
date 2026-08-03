@@ -1,5 +1,5 @@
 ---
-title: "學會建之Hugo個人布落格"
+title: "學會建立Hugo個人布落格"
 date: 2026-08-03T19:54:00+08:00
 draft: false
 tags: ["Hugo", "GitHub Actions", "GitHub Pages", "部落格教學", "Git"]
