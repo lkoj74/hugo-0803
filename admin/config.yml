@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lkoj74/hugo-0803
   branch: main
-  site_domain: cheerful-melba-558d93.netlify.app
+  auth_type: implicit
 
 media_folder: "static/img"
 public_folder: "/img"
