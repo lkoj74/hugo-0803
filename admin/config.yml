@@ -3,6 +3,9 @@ backend:
   repo: lkoj74/hugo-0803
   branch: main
 
+media_folder: "static/img"
+public_folder: "/img"
+
 collections:
   - name: "posts"
     label: "📝 部落格文章筆記"
