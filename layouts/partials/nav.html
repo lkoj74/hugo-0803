@@ -12,9 +12,9 @@
   <div class="container flex justify-between px-4">
   {{ end }}
     <section class="flex items-center gap-3">
-      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="{{ T "flip" }}">
-        <div class="w-14 h-14 rounded-full select-none shadow-sm ring-1 ring-primary/20">
-          <img src="{{ site.Params.avatar | relURL }}" alt="{{ site.Params.headerTitle }}" class="object-cover w-full h-full rounded-full" />
+      <div class="flex-shrink-0" style="width: 48px; height: 48px;">
+        <div class="rounded-full overflow-hidden shadow-sm ring-1 ring-primary/20" style="width: 48px; height: 48px;">
+          <img src="{{ site.Params.avatar | relURL }}" alt="{{ site.Params.headerTitle }}" class="rounded-full" style="width: 48px; height: 48px; object-fit: cover;" />
         </div>
       </div>
 
