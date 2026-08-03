@@ -5,6 +5,7 @@ draft: false
 cover: "cover.jpg"
 tags: ["Hugo", "GitHub-Pages", "GitHub-Actions", "Dream主題", "網頁建置", "學習筆記"]
 categories: ["技術隨筆"]
+summary: "記錄使用 Hugo Extended 搭配 Dream 主題與 GitHub Actions 實現全自動化雲端發布的完整學習歷程與技術心得。"
 ---
 
 歡迎來到我的全新個人部落格！這篇文章記錄了我使用 **Hugo Extended** 靜態網站生成器，搭配炫麗的 **Dream** 主題，並結合 **GitHub Actions** 實現全自動化雲端發布的完整學習歷程與技術心得。
