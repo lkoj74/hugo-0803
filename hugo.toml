@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://lkoj74.github.io/hugo-0803/"
 defaultContentLanguage = "zh-tw"
 locale = "zh-tw"
 title = "我的 Dream 個人部落格"
