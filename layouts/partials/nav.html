@@ -11,9 +11,9 @@
   {{ else }}
   <div class="container flex justify-between px-4">
   {{ end }}
-    <section class="flex items-center gap-4">
+    <section class="flex items-center gap-3">
       <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="{{ T "flip" }}">
-        <div class="w-20 h-20 rounded-full select-none shadow-md ring-2 ring-primary/20">
+        <div class="w-14 h-14 rounded-full select-none shadow-sm ring-1 ring-primary/20">
           <img src="{{ site.Params.avatar | relURL }}" alt="{{ site.Params.headerTitle }}" class="object-cover w-full h-full rounded-full" />
         </div>
       </div>
@@ -21,12 +21,12 @@
       {{ if or site.Params.headerTitle site.Params.motto }}
       <div class="flex flex-col justify-center">
         {{ if site.Params.headerTitle }}
-        <a href="{{ site.BaseURL }}" class="text-2xl md:text-3xl font-bold tracking-tight cursor-pointer hover:text-primary transition-colors">
+        <a href="{{ site.BaseURL }}" class="text-xl font-bold tracking-tight cursor-pointer hover:text-primary transition-colors">
           {{ site.Params.headerTitle }}
         </a>
         {{ end }}
         {{ if site.Params.motto }}
-        <div class="text-base-content/70 text-base mt-1">{{ site.Params.motto }}</div>
+        <div class="text-base-content/70 text-sm mt-0.5">{{ site.Params.motto }}</div>
         {{ end }}
       </div>
       {{ end }}
