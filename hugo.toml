@@ -25,9 +25,9 @@ theme = "dream"
   [params.giscus]
     enabled = true
     repo = "lkoj74/hugo-0803"
-    repoId = "R_kgDOXXXXXXXX"
+    repoId = "R_kgDOTr-TZw"
     category = "Announcements"
-    categoryId = "DIC_kwDOXXXXXXXX"
+    categoryId = "DIC_kwDOTr-TZ84DCj-M"
 
 [menu]
   [[menu.main]]
