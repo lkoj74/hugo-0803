@@ -1,41 +1,47 @@
 baseURL = 'http://localhost:1313/'
 locale = 'zh-tw'
-title = '我的個人部落格'
-theme = 'congo'
+title = '我的個人部落格 (PaperMod 極簡極速風格)'
+theme = 'PaperMod'
 
 [params]
-  colorScheme = "congo"
-  defaultAppearance = "dark"
-  autoSwitchAppearance = true
+  defaultTheme = 'auto'
   showCodeCopyButtons = true
-  enableSearch = true
+  showFullTextInContent = false
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showToc = true
 
-  [params.author]
-    name = "部落格作者"
-    image = "img/author.png"
-    headline = "🚀 分享技術隨筆、AI 開發與生活想法"
-    bio = "歡迎來到我的個人小天地！專注於前沿 Web 開發與現代化軟體工程。"
-    links = [
-      { github = "https://github.com" },
-      { email = "mailto:user@example.com" },
-      { rss = "/index.xml" }
-    ]
+  [params.profileMode]
+    enabled = true
+    title = "部落格作者"
+    subtitle = "🚀 分享技術隨筆、AI 開發與生活想法"
+    imageUrl = "img/author.png"
+    imageTitle = "Author Avatar"
+    imageWidth = 120
+    imageHeight = 120
 
-  [params.footer]
-    showCopyright = true
-    showThemeAttribution = true
-    showAppearanceSwitcher = true
-    showScrollToTop = true
+    [[params.profileMode.buttons]]
+      name = "📝 文章筆記"
+      url = "posts"
 
-  [params.homepage]
-    layout = "profile"
-    showRecent = true
-    cardView = true
+    [[params.profileMode.buttons]]
+      name = "👤 關於本站"
+      url = "about"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:user@example.com"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "📝 文章筆記"
+    name = "📝 所有文章"
     url = "/posts/"
     weight = 10
 
