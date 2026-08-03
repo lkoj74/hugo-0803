@@ -1,47 +1,27 @@
-baseURL = 'http://localhost:1313/'
-locale = 'zh-tw'
-title = '我的個人部落格 (PaperMod 極簡極速風格)'
-theme = 'PaperMod'
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "zh-tw"
+locale = "zh-tw"
+title = "我的 Dream 個人部落格"
+theme = "dream"
 
 [params]
-  defaultTheme = 'auto'
-  showCodeCopyButtons = true
-  showFullTextInContent = false
-  showReadingTime = true
-  showShareButtons = true
-  showPostNavLinks = true
-  showBreadCrumbs = true
-  showToc = true
+  author = "部落格作者"
+  avatar = "img/author.png"
+  headerTitle = "我的個人部落格"
+  motto = "🚀 分享技術隨筆、AI 開發與生活想法"
+  description = "歡迎來到我的 Dream 個人部落格！"
 
-  [params.profileMode]
-    enabled = true
-    title = "部落格作者"
-    subtitle = "🚀 分享技術隨筆、AI 開發與生活想法"
-    imageUrl = "img/author.png"
-    imageTitle = "Author Avatar"
-    imageWidth = 120
-    imageHeight = 120
+  lightTheme = "emerald"
+  darkTheme = "forest"
 
-    [[params.profileMode.buttons]]
-      name = "📝 文章筆記"
-      url = "posts"
-
-    [[params.profileMode.buttons]]
-      name = "👤 關於本站"
-      url = "about"
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com"
-
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:user@example.com"
+  stickyNav = true
+  showTableOfContents = true
+  showSummaryCoverInPost = true
 
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "📝 所有文章"
+    name = "📝 文章筆記"
     url = "/posts/"
     weight = 10
 
