@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: lkoj74/hugo-0803
+  branch: main
+
+collections:
+  - name: "posts"
+    label: "📝 部落格文章筆記"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - { label: "文章標題", name: "title", widget: "string" }
+      - { label: "發布日期", name: "date", widget: "datetime" }
+      - { label: "草稿狀態 (Draft)", name: "draft", widget: "boolean", default: false }
+      - { label: "標籤 (Tags)", name: "tags", widget: "list", required: false }
+      - { label: "分類 (Categories)", name: "categories", widget: "list", required: false }
+      - { label: "文章內文", name: "body", widget: "markdown" }
