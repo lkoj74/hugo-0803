@@ -2,6 +2,7 @@
 title: "HUGO個人部落格建置學習筆記"
 date: 2026-08-03T15:57:00+08:00
 draft: false
+cover: "cover.jpg"
 tags: ["Hugo", "GitHub-Pages", "GitHub-Actions", "Dream主題", "網頁建置", "學習筆記"]
 categories: ["技術隨筆"]
 ---

@@ -2,10 +2,13 @@
 title: "探索 AI 輔助程式開發的未來趨勢"
 date: 2026-08-03T11:39:00+08:00
 draft: false
+cover: "cover.jpg"
 tags: ["AI", "程式設計", "經驗分享"]
 categories: ["技術專題"]
 summary: "深入探討 AI 如何重構軟體工程師的工作流程，從 Pair Programming 到自動重構。"
 ---
+
+![AI 輔助開發的未來趨勢](featured.jpg)
 
 # 🚀 AI 輔助開發的革命
 

@@ -2,10 +2,13 @@
 title: "歡迎來到我的全新 Hugo 部落格！"
 date: 2026-08-03T11:27:00+08:00
 draft: false
+cover: "cover.jpg"
 tags: ["Hugo", "Blowfish", "個人部落格"]
-categories: ["技術筆記"]
+categories: ["技術隨筆"]
 summary: "這是我使用 Hugo 與 Blowfish 主題搭建的第一篇個人部落格文章。"
 ---
+
+![歡迎來到我的個人部落格](featured.jpg)
 
 # 哈囉，世界！ 👋
 

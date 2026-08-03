@@ -2,10 +2,13 @@
 title: "學會建立Hugo個人布落格"
 date: 2026-08-03T19:54:00+08:00
 draft: false
+cover: "cover.jpg"
 tags: ["Hugo", "GitHub Actions", "GitHub Pages", "部落格教學", "Git"]
 categories: ["技術教學"]
 summary: "這是一份專為新手與 Agent 小白設計的 Hugo 個人部落格建置白話教學。從工具安裝、主題選擇、文章撰寫、Git 版本控制到 GitHub Actions 自動化部署，帶你徹底掌握建立個人部落格的全流程。"
 ---
+
+![Hugo 個人部落格建置教學指南](featured.jpg)
 
 > [!NOTE]
 > 本文改編自白話教學指南，用最淺顯易懂的方式，帶完全沒接觸過 Hugo、Git、GitHub Actions 與 Agent 的新手，從零建立並發布專屬於你的 Hugo 個人部落格。
