@@ -1,11 +1,7 @@
 baseURL = "https://lkoj74.github.io/hugo-0803/"
-defaultContentLanguage = "zh-tw"
 locale = "zh-tw"
 title = "我的 Dream 個人部落格"
 theme = "dream"
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
 
 [params]
   author = "部落格作者"
@@ -34,17 +30,17 @@ theme = "dream"
   [[menu.main]]
     identifier = "posts"
     name = "📝 文章筆記"
-    url = "/posts/"
+    url = "posts/"
     weight = 10
 
   [[menu.main]]
     identifier = "tags"
     name = "🏷️ 標籤分類"
-    url = "/tags/"
+    url = "tags/"
     weight = 20
 
   [[menu.main]]
     identifier = "about"
     name = "👤 關於本站"
-    url = "/about/"
+    url = "about/"
     weight = 30
