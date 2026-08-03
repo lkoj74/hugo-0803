@@ -1,0 +1,8 @@
+# Hugo output directory
+public/
+resources/_gen/
+
+# Lock files & temp downloads
+.hugo_build.lock
+*.zip
+*.log

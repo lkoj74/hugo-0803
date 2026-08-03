@@ -1,0 +1,52 @@
+baseURL = 'http://localhost:1313/'
+locale = 'zh-tw'
+title = '我的個人部落格'
+theme = 'congo'
+
+[params]
+  colorScheme = "congo"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = true
+  showCodeCopyButtons = true
+  enableSearch = true
+
+  [params.author]
+    name = "部落格作者"
+    image = "img/author.png"
+    headline = "🚀 分享技術隨筆、AI 開發與生活想法"
+    bio = "歡迎來到我的個人小天地！專注於前沿 Web 開發與現代化軟體工程。"
+    links = [
+      { github = "https://github.com" },
+      { email = "mailto:user@example.com" },
+      { rss = "/index.xml" }
+    ]
+
+  [params.footer]
+    showCopyright = true
+    showThemeAttribution = true
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+    cardView = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "📝 文章筆記"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 標籤分類"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "👤 關於本站"
+    url = "/about/"
+    weight = 30
