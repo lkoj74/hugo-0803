@@ -1,6 +1,6 @@
 baseURL = "https://lkoj74.github.io/hugo-0803/"
 locale = "zh-tw"
-title = "我的 Dream 個人部落格"
+title = "20260803-v1- lkoj -個人部落格"
 theme = "dream"
 
 [outputs]
