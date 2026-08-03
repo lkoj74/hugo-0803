@@ -3,6 +3,9 @@ locale = "zh-tw"
 title = "我的 Dream 個人部落格"
 theme = "dream"
 
+[outputs]
+  home = ["HTML"]
+
 [params]
   author = "部落格作者"
   avatar = "img/author.png"
